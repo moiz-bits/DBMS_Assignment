@@ -1,0 +1,24 @@
+-- Table: public.schoolapp_applicant
+
+-- DROP TABLE IF EXISTS public.schoolapp_applicant;
+
+CREATE TABLE IF NOT EXISTS public.schoolapp_applicant
+(
+    "ApplicationNo" integer NOT NULL,
+    "StudentName" character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    "ClassApplied" character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    "StudentDOB" date NOT NULL,
+    "Gender" character varying(15) COLLATE pg_catalog."default" NOT NULL,
+    "PreviousClassMark" integer NOT NULL,
+    "GuardianInformation" character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    "DateOfApplication" date NOT NULL,
+    "StudentAddress" character varying(100) COLLATE pg_catalog."default" NOT NULL,
+    "PreviousSchoolName" character varying(100) COLLATE pg_catalog."default" NOT NULL,
+    "Siblings" integer NOT NULL,
+    CONSTRAINT schoolapp_applicant_pkey PRIMARY KEY ("ApplicationNo")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.schoolapp_applicant
+    OWNER to postgres;
