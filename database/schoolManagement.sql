@@ -242,7 +242,116 @@ INSERT INTO Guardian VALUES('1ca6fb21-e17d-43d6-94f6-d8904c37e8f6','ccd31a57-534
 INSERT INTO Guardian VALUES('d46349d6-3a04-4403-9b91-b5b19fe7f39b','65154f38-9416-41d9-a384-e439b4e2172c','Dianne Skea','Father','953-132-9828','B.A.','Business Man','dskea2p@feedburner.com');
 INSERT INTO Guardian VALUES('92b1c3c1-c77d-4b72-abb2-aad16ce79c7d','5ce5dff9-deac-4b26-9a37-c4c0991859e4','Aurea Erbe','Aunty','275-946-4011','12th pass','B.A.','aerbe2q@yahoo.co.jp');
 INSERT INTO Guardian VALUES('0b02cfbc-2333-49fb-92c1-6e3dbd17e206','773a418c-baf5-4227-bbb2-c772a7086889','Morissa Dovermann','Uncle','740-636-0881','10th pass','Doctor','mdovermann2r@shop-pro.jp');
+CREATE TABLE `student` (
+`studentid` VARCHAR(100) NOT NULL,
+`studentname` VARCHAR NOT NULL,
+`studentdob` DATE NOT NULL,
+`age` INT NOT NULL,
+`studentaddress` VARCHAR NOT NULL,
+`gender` CHAR NOT NULL,
+`classid` VARCHAR NOT NULL,
+`academicyear` INT NOT NULL,
+PRIMARY KEY (`studentid`)
+);
+INSERT INTO student VALUES('studentid','studentname','studentdob','age','studentaddress','gender','classid','academicyear');
+INSERT INTO student VALUES('ddddc0dc-c070-4b7f-82b1-13ba9123157b','Hill Spain-Gower','10/01/2011',9,'84593 Birchwood Alley','M','286a247c-6731-46fc-88c1-7b5653093e3a',2002);
+INSERT INTO student VALUES('dbae25c4-cfe7-4e4a-8fb1-d1784663ff6c','Constantina Ivantyev','16/04/2008',18,'48 Karstens Trail','F','cbf98d69-b620-4f7a-af1c-eaa2de670fc9',1989);
+INSERT INTO student VALUES('8e660bbd-560c-4bd6-a8f5-0e9c15e850b5','Kenon Giacomi','02/09/2003',20,'8 Kipling Trail','M','ca8f8bb7-1700-4fc0-9e72-69a382340b77',2008);
+INSERT INTO student VALUES('fabce3e0-4796-4331-8964-29da34fb8d50','Caz Dickinson','06/11/2017',10,'54238 Katie Street','F','7c76255e-5c82-4070-bd66-29238eedda61',2010);
+INSERT INTO student VALUES('a69fbca8-905d-4771-a78a-89218c9e4477','Reynold Hambridge','26/04/2012',13,'8979 Pepper Wood Street','M','62a86067-154d-48be-a84c-6bda36c14655',2010);
+INSERT INTO student VALUES('ade6d607-42eb-4875-897e-cb487631b55c','Hailey Sewall','09/07/2020',12,'25711 Hagan Center','F','e7414913-7ba5-437c-a7c9-6a7d7d77976f',2004);
+INSERT INTO student VALUES('fe216cd9-2293-4d02-a68f-8eb26158e2e3','Alford Martinello','27/01/2010',16,'686 Oxford Trail','M','e3b3ce1a-7a7d-4fe5-8b22-e8effebd7530',1997);
+INSERT INTO student VALUES('4f071e23-9d69-46e7-9f5d-1b7e363580db','Callie McClaren','08/05/2009',19,'8 Shelley Road','F','fce83731-7dde-4139-87ef-f098baa9ffe3',1988);
+INSERT INTO student VALUES('20820baa-bce5-4f13-a8d4-185eb9fd650a','Kimberly Jirasek','19/06/2014',12,'6 Hansons Street','M','9484b819-3c27-4428-9970-d15c7edea019',2001);
+INSERT INTO student VALUES('c8fb5842-3bff-4dc9-a3a0-ddb07ad72c5b','Emma Lurner','06/07/2013',3,'6680 Troy Alley','F','ba58c090-9757-4085-a0bf-d43baed7692e',2012);
+INSERT INTO student VALUES('fca3d95d-c968-4a6d-8f70-a597b50f99e4','Ailyn Liddy','20/03/2003',15,'9493 Weeping Birch Center','M','12318be3-a2e7-46a9-a5e1-2e9fc2b5ebeb',1993);
+INSERT INTO student VALUES('58adbbfd-473d-4b4d-8837-5cc0435a30a5','Franz Foulgham','22/11/2008',11,'02530 Prairie Rose Point','M','ea592b08-0618-477e-8db2-ba0164bdc06c',1994);
+INSERT INTO student VALUES('493c1c29-f095-4dad-aa93-e9e3610f7841','Verene Titmus','19/03/2005',10,'389 Ramsey Lane','M','8bb5bf43-9003-4cb4-86c9-3b7fbe658be8',1995);
+INSERT INTO student VALUES('b19d9c26-88cb-4cb4-8584-67acb121840b','Helen-elizabeth Levane','12/07/2020',10,'62497 Rieder Place','M','e2562409-e9ee-4ec9-a7e0-173084b3bc51',2001);
+INSERT INTO student VALUES('5547c678-430a-4351-b093-62109fa70596','Merna McCarver','23/05/2003',12,'516 Mayer Alley','F','bffa79a9-8c46-43ad-b56a-52e8cdb66c7b',2001);
+INSERT INTO student VALUES('40dbc66f-0aaa-474c-be35-22ec62742a04','Katinka Imason','08/06/2018',21,'57785 Garrison Road','M','cd249951-28e5-4711-83c7-d1baa7fda1d3',1998);
+INSERT INTO student VALUES('27a75ec7-b213-4567-b882-bdf8a1514d4d','Bennie Rutherfoord','05/06/2008',14,'7 Raven Alley','M','7649eac0-d983-4c27-85b2-ba88dd33183f',2010);
+INSERT INTO student VALUES('5a4d7df9-8d29-44bf-b17c-570bd4bf7bd9','Jakie Alekseicik','06/08/2023',8,'03623 Kipling Drive','F','1429f2b1-a1be-47ba-9ef2-0fc6a71d644a',2006);
+INSERT INTO student VALUES('8f820dea-11b3-46da-b9c9-90dbd56e1946','Aland Edwardes','03/01/2011',20,'6 Knutson Crossing','M','055f1072-9ee7-4c4d-a477-f955f3f000aa',1987);
+INSERT INTO student VALUES('71718de0-a292-415f-b0b0-2994f8b26480','Farris Warboy','18/08/2016',17,'38624 Sloan Road','M','b065b66f-aa1d-494a-8ca4-d818de65dbeb',2009);
+INSERT INTO student VALUES('34704040-3315-4f1e-8a14-420337c5167c','Jonas McAughtry','01/03/2008',12,'15392 Hansons Point','M','6becdd9a-f694-4f99-a4ce-e2b9df63fa31',2003);
+INSERT INTO student VALUES('d3ffbf5b-edae-4e77-8293-0802482995b0','Stan Hansley','19/10/2018',11,'07700 Redwing Hill','F','7d97820f-3777-4921-afb6-2eacd9731b21',2003);
+INSERT INTO student VALUES('3e820d2d-3d2e-42b4-8c0e-74ff28a4d087','Madel Lascell','24/05/2021',8,'006 Grover Pass','M','92230b2b-96d8-4755-a58d-e4b6aa7b8317',2001);
+INSERT INTO student VALUES('a55baa2f-b12f-401f-83b2-6c9bec75a893','Mavra Linck','14/11/2005',19,'65055 Lerdahl Avenue','F','3f6a52c5-87d3-4679-8705-33b9c0ddb1cc',1977);
+INSERT INTO student VALUES('b70ad0a5-858b-4617-a91e-69345736ec94','Robbie McKibbin','21/06/2021',4,'13 Scofield Junction','M','737ca29b-536a-4841-a23b-c57fefd65af5',1996);
+INSERT INTO student VALUES('47740aee-2e9d-4c11-8004-2c7cd121d568','Tabatha Blissett','23/04/2007',13,'989 Evergreen Pass','F','a9e3833b-6346-4f5a-9fea-57bb8565802e',1992);
+INSERT INTO student VALUES('e834dae8-d0b1-4699-9271-0e3a3bade5aa','Antonetta Dionisi','16/01/2021',22,'22 Canary Lane','F','6c4820e0-681c-406a-a709-26f486dc8dd2',2012);
+INSERT INTO student VALUES('4c825442-6e49-4991-82ee-560ff1ec7663','Arch Maddy','23/09/2003',11,'8 Anthes Center','F','0016e425-4309-4f48-b680-1f889589b3f7',1994);
+INSERT INTO student VALUES('fdcf4430-0429-498d-b660-59c10b98403a','Kort Cregan','22/03/2005',19,'0667 3rd Terrace','F','60b048de-6983-4b56-b436-db3228039982',2009);
+INSERT INTO student VALUES('8f15596f-02cc-443e-ba7d-bd483d40d723','Ninetta Boorer','13/12/2006',12,'1 Buena Vista Place','M','3732f8c9-652b-45d8-855f-d18aabb3192c',2012);
+INSERT INTO student VALUES('45a7dab8-b0eb-4079-8d3f-b2fe0da273a1','Falito Doel','17/11/2012',3,'82 Manufacturers Alley','M','0afea7ed-9c18-4ee7-bd02-1257e9c16635',1993);
+INSERT INTO student VALUES('5d5a9f6f-bfee-4339-935e-a22e18b92c98','Shannen Sobey','16/07/2016',5,'4 Northland Parkway','M','30a89a19-e3e4-4062-843e-b7049a9f4bd2',1993);
+INSERT INTO student VALUES('7cfc4580-fec4-4152-8020-989d3eaac3ec','Shannah Moseley','05/01/2009',11,'4 Grover Street','F','d95143a7-583b-4024-b924-82c0b606c6ba',2005);
+INSERT INTO student VALUES('aed6c2f7-504a-4a1e-b87d-c1ee3e06687f','Ginevra Corfield','05/05/2005',20,'14910 Macpherson Trail','M','345aea26-8961-4be6-8c79-41afbdb2bdb1',2005);
+INSERT INTO student VALUES('6ecf5aeb-89aa-44ef-8a91-096397b591a3','Ivory Krolik','24/10/2001',21,'9651 Heffernan Hill','F','a8ce3fd1-6518-482c-acec-2176beeda30a',1995);
+INSERT INTO student VALUES('00d4d14f-fbd1-4222-8343-68f28a76fd58','Beverley Rosenhaupt','10/01/2016',15,'923 Luster Avenue','F','67710cd5-e90e-47dd-a53f-519de998fdbf',2005);
+INSERT INTO student VALUES('b2c56822-523f-4308-b524-70a841fcca45','Silva Buntin','27/09/2020',10,'16 Weeping Birch Center','F','dfc3faf0-db99-476d-b451-25ce7583f611',1968);
+INSERT INTO student VALUES('6e262f9c-29a6-46f2-aca4-d93eeb2806f6','Ermin Lenormand','10/10/2002',16,'95971 Namekagon Point','F','96c64a40-af72-47da-b42d-1c53c62719a1',2012);
+INSERT INTO student VALUES('84ab1514-17a4-4816-bcce-4ae9c61ef8bb','Noellyn Branno','17/10/2013',16,'5 Algoma Place','M','8af642bd-853c-40b8-9781-baa88b46d986',1997);
+INSERT INTO student VALUES('0d19c848-e64b-4ae6-b8e6-ceecde2cc764','Scotty Burchfield','24/05/2021',18,'8 Lukken Road','M','3dc2b2ae-0390-4522-969b-5a1e6d6b1cc5',2008);
+INSERT INTO student VALUES('e20cd644-5be9-480b-8c2d-b5452132178d','Randene Younger','17/12/2002',6,'11518 Northport Park','F','8b1c28ce-b346-4f38-8d24-de85d67e85e0',1993);
+INSERT INTO student VALUES('382a4414-5ec4-4b50-ba58-0b2a1e8151d1','Grethel Havik','06/11/2011',17,'1 Havey Parkway','M','4d7695aa-9bba-47a9-8999-d434619e6877',2012);
+INSERT INTO student VALUES('4c2d6acb-1e46-4c9a-b378-3371f0406f4a','Sadella Ginglell','29/08/2002',4,'05026 Golf View Parkway','M','bc403086-bf37-41ad-bdb2-531192954e61',2012);
+INSERT INTO student VALUES('9d0b5320-fda0-4255-a0ed-6b7151cbec97','Marcellina Chastang','11/07/2009',18,'1076 Mariners Cove Circle','M','c89bfa5f-df22-4f3b-a805-efad776f2603',2004);
+INSERT INTO student VALUES('82103c14-48b0-4199-98c0-5fdc36702377','Bernadene Drought','10/11/2002',8,'47345 Weeping Birch Junction','F','2abf20ea-42a6-4de2-abab-a4e595de72e0',1993);
+INSERT INTO student VALUES('0f94ce55-2579-4ab6-983a-4700d484586c','Herve Farfoot','11/09/2004',3,'86 Boyd Circle','F','3b6f46cc-bb52-4eb4-bc55-dfc30eff2ff6',2009);
+INSERT INTO student VALUES('aa73de55-4e0b-4d10-b06f-380469c6963e','Bessy Drain','18/03/2015',3,'7824 Johnson Terrace','M','ece3fde1-6b86-4ca5-b6fe-d9cf68520777',1998);
+INSERT INTO student VALUES('379281c4-e69b-4e5f-ae25-83983e08b953','Ryley Ferraretto','31/08/2010',4,'1915 Clemons Alley','M','abc5f5bd-458a-4b9a-96ad-4fd5f5b885af',2010);
+INSERT INTO student VALUES('c03437a4-2c46-4f9f-a742-255bdbcecb4e','Blaine Cavy','25/03/2022',9,'2947 Clyde Gallagher Lane','F','a72eca60-beca-4723-9230-c676259431b2',1999);
+INSERT INTO student VALUES('405d2eb8-7818-4253-8fcd-4519ebdb14f2','Elmo Walenta','19/05/2006',20,'1689 4th Trail','M','86175946-a53f-4656-a327-ae881b0c8ff7',1994);
+INSERT INTO student VALUES('9bd763cd-c975-4690-8be8-4bff1b80cf18','Michell Dodman','16/01/2002',5,'630 Hollow Ridge Plaza','M','cbe9292e-310f-4810-a44e-e864c0715528',2008);
+INSERT INTO student VALUES('bb725171-17a5-48c0-8318-7a087066e0f7','Maurise Kira','18/12/2019',4,'26981 American Ash Circle','F','f8566be2-32c1-426a-8609-5a86728bb820',2001);
+INSERT INTO student VALUES('ec89d8bd-a183-4d6a-bb31-cb8564c09a82','Rozamond Ellerbeck','28/09/2000',17,'3674 Meadow Vale Circle','M','04f307ab-f5cd-4cde-b057-b8cb2fcefbaa',2002);
+INSERT INTO student VALUES('5c6d492b-239c-42b6-9381-34dd72b729a6','Moises Padkin','10/01/2002',16,'6018 Bay Circle','F','440b3a00-7629-4d56-8200-ccf9df1acb10',2011);
+INSERT INTO student VALUES('0eac8391-1e21-437f-85ae-c1818f96bfaf','Tonie O''Tierney','03/01/2019',16,'2 Dennis Court','F','a12cc12c-39b8-437c-84c5-05473c2eac37',2001);
+INSERT INTO student VALUES('00e2ed04-6c70-4037-9ed1-e6e0d1fb1dbd','Dora Giovani','04/04/2001',20,'5604 Myrtle Circle','F','d14f9e4c-7ca0-42f3-9c56-8f1aac018667',2012);
+INSERT INTO student VALUES('6f959f1f-5afe-417a-95e0-42dfc73ede5d','Andromache Masedon','21/10/2008',16,'4 Nova Circle','F','b2c139c9-6197-44d0-bc2b-dec88d50f16c',2008);
+INSERT INTO student VALUES('c1a8c4ef-91bf-4859-adad-fe01d2e0ee21','Nappie Phillput','12/06/2009',14,'1 Mandrake Trail','M','5dc1b9dc-e2a8-4701-a485-aa10b01c4f68',2010);
+INSERT INTO student VALUES('f82e6640-7b4c-4617-b72e-3f7f7852b1ad','Isak Peter','19/02/2017',13,'626 Porter Hill','F','29114984-3c05-43bf-a3bb-06c3f29e6925',1992);
+INSERT INTO student VALUES('111f89df-6e8d-4797-afd3-6228f2e11560','Alysia Kesper','03/03/2000',16,'605 Browning Center','M','9224b92f-f23c-47c7-87ec-d4c0ae3a7278',1998);
+INSERT INTO student VALUES('8d9aa6fe-e420-40ce-a9eb-7b75cf27b021','Kellen Drynan','02/07/2017',21,'51463 Grayhawk Way','F','b451fe45-a980-48d8-ae72-e6bc0a21b397',2000);
+INSERT INTO student VALUES('61551d61-4fa3-4cc3-a9ad-4f26d8c018d7','Rog Mallison','26/04/2004',4,'108 Amoth Point','F','b4c9b12c-871a-4a40-ace3-65b98cfe24da',1990);
+INSERT INTO student VALUES('7238ea8b-1ab4-419a-95b1-e45c067eeecc','Frank Ambrose','08/09/2014',20,'2 Cambridge Street','F','223d52dc-1846-4fda-9f8d-29e12b9c5890',1989);
+INSERT INTO student VALUES('74471578-a5fd-4575-9140-4262633be4ca','Coletta McCahey','06/08/2008',8,'8114 Mesta Circle','F','1eb555e0-81f6-491b-91f6-0ad5d3ef8f24',2008);
+INSERT INTO student VALUES('97be6b51-c96c-4a28-9280-2d6f55ede7c6','Damian Domico','03/03/2023',3,'829 Prairieview Avenue','M','3326f0c7-7a06-4bac-b3c3-c001386db694',2002);
+INSERT INTO student VALUES('348ef026-1458-4ce9-b601-80b5b4c9212e','Damiano Joscelyne','05/02/2003',7,'9228 Waywood Center','F','fd45ff96-986b-4d53-a9b7-acb80eebf004',2005);
+INSERT INTO student VALUES('7f0ec711-f456-4042-b635-cbc050e9e2a3','Patrice Vignaux','15/02/2008',14,'36995 Vidon Park','M','640a9476-f2b8-45b3-92b6-e932457d8b6c',1992);
+INSERT INTO student VALUES('83eaf6e3-6132-4cfd-8cde-d08a7bc5f4b1','Modestine Weathey','30/08/2021',16,'197 Banding Hill','F','fad3196c-3e0e-4a32-a3a4-9d9fd6523ec1',1992);
+INSERT INTO student VALUES('44ef927a-aed7-4cea-93f3-69b56d587d91','Silvie Mecchi','01/03/2003',7,'005 Saint Paul Place','F','9f41b7a6-21e6-48a2-af55-b50cc3b6e41b',2001);
+INSERT INTO student VALUES('f8d5e58a-56b2-4e0e-8b35-60d15f25050f','Standford Howden','05/08/2013',7,'20361 Morrow Way','F','19035836-d837-4ac0-9e00-bfafe5863394',1992);
+INSERT INTO student VALUES('26e82089-e592-45b8-a0b3-ef045c6d1be3','Abran Scottini','26/09/2010',7,'9213 Scott Park','F','b71781ca-4dfb-4347-aa6a-e0651f34eab7',1993);
+INSERT INTO student VALUES('114b70c4-4c22-440d-b990-e50bdf1ec591','Reece Guiot','13/03/2001',15,'11491 Sugar Hill','M','7ec6abad-b39c-4583-bb4e-8e07bc5b1679',2009);
+INSERT INTO student VALUES('56afa807-4dca-48e9-bdca-9519b95a4e62','Lilyan Leggate','06/08/2009',22,'176 6th Street','M','2bc8529c-1c87-4746-b42a-434a3539dbf3',1994);
+INSERT INTO student VALUES('0cd1f51a-b8e8-4ffa-b002-26212f38123c','Christi Valde','17/09/1999',21,'99 Westerfield Circle','F','2e4a6bb5-ad38-4e43-b27c-983b9179607e',1987);
+INSERT INTO student VALUES('8f790578-20c1-4602-946f-f9936270cfa7','Rolfe Andino','08/02/2018',3,'8 Duke Terrace','F','3fe48e3c-f20d-4acc-9e93-f61cc6abd366',2011);
+INSERT INTO student VALUES('d1db4fe5-6cce-45c2-8c5b-b01fef6c622f','Peria Heditch','15/10/1999',11,'55 Northland Road','F','f9d7f93f-aa94-4acc-9d1d-2beb404e0e0c',2011);
+INSERT INTO student VALUES('39f673b3-19e0-4dd7-9228-e5d4bfef84bf','Rochell MacGhee','07/02/1999',16,'48992 Prentice Avenue','M','5471d196-4744-4b32-8b24-fab66cd0f7aa',2003);
+INSERT INTO student VALUES('7bbabaee-1022-48f6-b9a0-c4a8b4294f37','Dacie Wehnerr','17/01/2007',10,'9456 Shelley Street','F','1d3aade2-9d42-4831-9605-23c80e78682b',1995);
+INSERT INTO student VALUES('19c21629-3b12-4c68-b74e-76e727684418','Aylmar Hanselman','25/09/2000',20,'88756 Bellgrove Avenue','M','d972dbe2-7994-4ef3-90bb-faa5657b1a6c',1991);
+INSERT INTO student VALUES('e8e98a7c-5e45-450e-8572-30bc6548c51a','Eadith Jennins','30/03/2002',4,'9250 Lindbergh Point','F','59b225c1-343c-4a84-a1ec-561aa9eab089',2012);
+INSERT INTO student VALUES('52e501a5-696c-4d7b-812e-a5edbedc1dbc','Philbert Bazylets','13/11/2000',9,'353 Logan Park','M','f2f1e363-3a30-41be-b61d-5523cd47c132',1999);
+INSERT INTO student VALUES('380ca23a-7677-45cc-9559-f825205fd385','Alfonso Vials','19/01/2025',8,'6 West Way','M','ed6749bb-e46e-46f6-8e99-9f1855229d0a',2004);
+INSERT INTO student VALUES('3cf95d90-9b47-4508-9f9d-6113ec601470','Glynda Schaumann','21/04/2012',19,'0511 Morrow Pass','M','60438036-a1a7-467b-a720-c4a36b673cd5',1997);
+INSERT INTO student VALUES('c3c42350-e1c4-440d-bb8c-3d10395061da','Kleon Penhearow','10/07/2015',17,'83 Grover Court','F','cbb173bb-8569-4a0d-9619-bbdfa9475fd6',2012);
+INSERT INTO student VALUES('6f932590-195a-4a82-8fec-df93d5e01bfa','Saw MacCarrane','24/08/2013',20,'30327 Basil Terrace','M','8af39a00-9b8c-4ce2-a580-4e18876e87dd',1995);
+INSERT INTO student VALUES('a4048428-62f5-44b9-a94b-d554314195de','Janeta Lampaert','04/05/2015',5,'47118 Debs Court','M','9ee940f6-f441-4a9f-b845-5750058cdacf',2004);
+INSERT INTO student VALUES('7bf317b9-36e6-4152-b613-efa6c92e077f','Persis Kybert','24/02/2023',12,'6 Thierer Crossing','M','a1ba931a-1ff0-489c-ad5f-72528bb34979',1987);
+INSERT INTO student VALUES('bfbff25b-cc21-42fb-89df-f2ac6bf3391e','Sergeant Seivwright','14/05/2009',22,'75786 Florence Park','F','19b90832-88a4-4fd0-8261-b0f7a0e6fda7',2003);
+INSERT INTO student VALUES('5f3793ea-f2d5-4991-88ea-512eacd719dd','Desdemona Low','11/06/2003',12,'154 Prairieview Crossing','F','5c5bf403-4305-4dc0-a2d6-387381d4f4d2',1993);
+INSERT INTO student VALUES('93fb9aab-8736-487f-a7df-18c5a7499052','Leopold Hayball','01/07/2014',9,'18168 Upham Point','M','80b357f4-9b75-4f2a-a7ba-7a1c8e99455d',2000);
+INSERT INTO student VALUES('b518d178-5109-4102-981c-e075f3646acb','Kriste McGurk','27/12/1999',7,'72 Service Way','M','55c1223e-d8c2-43e2-8daf-49927887f8a5',2004);
+INSERT INTO student VALUES('9b5e3fa9-585c-4036-b836-2baedb42b658','Reggie Caselli','09/11/2009',7,'93596 Thompson Way','M','ab4139d7-19c7-4ab4-b394-f35132931158',1990);
+INSERT INTO student VALUES('6c0fef06-21aa-421e-815e-4cced1b32466','Alida Ninnotti','17/06/2002',14,'36443 Lillian Pass','F','fcc64c7b-3ad2-4c4d-83fc-8852fd7de0b6',2004);
+INSERT INTO student VALUES('96321731-87e6-48be-b2b7-95f7466592f3','Darbie Badrock','29/05/2013',5,'639 Kedzie Way','F','ac7ec85b-7cac-4f9a-9164-86f3de638330',2011);
+INSERT INTO student VALUES('559243b5-cb33-4ab4-a1be-e90b28df18f0','Mohandas Furneaux','23/01/2000',11,'86 Lakewood Gardens Drive','F','a8561a1b-2b67-4a1b-addd-23028c0d3727',1999);
+INSERT INTO student VALUES('cdad3aee-2c04-4115-89aa-4eb86763130b','Regan Snoxell','06/08/2021',19,'0 Raven Place','M','827967a0-18ee-47b5-92e8-a28ae4fdedfb',1991);
+INSERT INTO student VALUES('d35d203c-222b-4b6b-8d15-5611d406e14a','Inigo Asman','19/09/2010',13,'08 Magdeline Crossing','F','ae8ac2b2-99e9-49df-8cad-ef26023f9905',2001);
+INSERT INTO student VALUES('d0ed8bb6-0bf7-46e0-b330-3e87364a636a','Matilde Gerrett','13/02/2007',19,'25408 Bashford Center','F','7a2fc5f5-5518-4aec-8298-77775a3d47fe',1992);
+INSERT INTO student VALUES('4f8ef254-8173-4036-9b6b-41cb537d81f8','Si Semark','09/10/2003',20,'75084 Commercial Point','F','c3e53893-a80e-4553-adfe-1bd6230162b1',1992);
+INSERT INTO student VALUES('9ba9beb9-4019-42cc-b835-0ff5e7b6bbfc','Allyce Cross','08/02/2016',3,'20662 Monument Trail','F','8dcb95f9-353b-4164-a6e0-b41278d1faef',2009);
 COMMIT;
-Academic_Year  Guardian       exams        
-main: C:\Users\HP\dbms_assignment\database\schoolManagement.db r/w
-Academic_Year  Guardian       exams        
